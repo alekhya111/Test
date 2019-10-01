@@ -1,0 +1,216 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 34,
+        "name": "Log-in with valid username and password",
+        "description": "",
+        "id": "my-account-login-feature;log-in-with-valid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10149422300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "open browser",
+            "match": {
+              "location": "LoginStepDefinations.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8568857200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "enter open url \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinations.enter_open_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2811078200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on  signIn",
+            "match": {
+              "location": "LoginStepDefinations.click_on_signIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2229981200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter username \"Reeha@gmail.com\" and password \"5%GV()HH\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reeha@gmail.com",
+                  "offset": 16
+                },
+                {
+                  "val": "5%GV()HH",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginStepDefinations.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1738389800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginStepDefinations.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 673585000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify login",
+            "match": {
+              "location": "LoginStepDefinations.verify_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Log-in with valid username and password",
+        "description": "",
+        "id": "my-account-login-feature;log-in-with-valid-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9420534800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "open browser",
+            "match": {
+              "location": "LoginStepDefinations.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7019017100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "enter open url \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com/index.php",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStepDefinations.enter_open_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1449174900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on  signIn",
+            "match": {
+              "location": "LoginStepDefinations.click_on_signIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2253992800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter username \"agsfjsghjg@gmail.com\" and password \"sfhttrurt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "agsfjsghjg@gmail.com",
+                  "offset": 16
+                },
+                {
+                  "val": "sfhttrurt",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginStepDefinations.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1403999300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on login button",
+            "match": {
+              "location": "LoginStepDefinations.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 653968100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify login",
+            "match": {
+              "location": "LoginStepDefinations.verify_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My Account-Login feature",
+    "description": "Description: This feature will test Login Functionality\nI want to use this template for my feature file",
+    "id": "my-account-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

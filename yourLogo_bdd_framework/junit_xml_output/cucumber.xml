@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="48.372001">
+<testcase classname="My Account-Login feature" name="Log-in with valid username and password" time="26.171314">
+<system-out><![CDATA[Given open browser..........................................................passed
+When enter open url "http://automationpractice.com/index.php"...............passed
+And click on  signIn........................................................passed
+And Enter username "Reeha@gmail.com" and password "5%GV()HH"................passed
+And click on login button...................................................passed
+Then verify login...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="My Account-Login feature" name="Log-in with valid username and password 2" time="22.200687">
+<system-out><![CDATA[Given open browser..........................................................passed
+When enter open url "http://automationpractice.com/index.php"...............passed
+And click on  signIn........................................................passed
+And Enter username "agsfjsghjg@gmail.com" and password "sfhttrurt"..........passed
+And click on login button...................................................passed
+Then verify login...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
